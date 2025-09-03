@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+    <script src="script.js"></script>
+  </head>
+  <body class="home">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <button id="homepage"><a href="index.html">Home</a></button>
+        </li>
+        <li>
+          <button><a href="Webpages/temp.html">Temperature</a></button>
+        </li>
+        <li>
+          <button><a href="Webpages/humidity.html">Humidity</a></button>
+        </li>
+        <li>
+          <button><a href="Webpages/uv.html">UV Index</a></button>
+        </li>
+        <li>
+          <button><a href="Webpages/wind.html">Wind Speed</a></button>
+        </li>
+      </ul>
+    </nav>
+    <h1 id="header">Weather</h1>
+    <div class="location">
+      <input type="text" placeholder="City" id="cityInput" />
+      <p id="error"></p>
+      <button onclick="getWeather()">Submit</button>
+    </div>
+  </body>
+</html>
