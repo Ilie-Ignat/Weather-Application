@@ -27,6 +27,7 @@ The weather website will allow the user to check the data on a requested city ba
 ## Usage
 
 Following the launch of the website, the user will need to enter a city. If the requested city is typed incorrectly or due to the lack of a larger number of cities, the text "City not found" will appear under the input section. Otherwise the user will be able to go to the following tabs to see the data about the respective city.
+
 City options:
 
 - Dublin
